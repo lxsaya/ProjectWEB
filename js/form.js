@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", function () {
     let form = document.getElementById("popupForm");
     form.addEventListener("submit", event => {
         if (check.checked == true) {
-            fetch('https://formcarry.com/s/gf9XxUK37', {
+            fetch('https://formcarry.com/s/1YRtIj05aiC', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
                 body: JSON.stringify({
