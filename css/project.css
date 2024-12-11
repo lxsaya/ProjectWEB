@@ -126,6 +126,10 @@ header,
 /* background video */
 
 .header_block {
+     background-image: url('https://static.zerochan.net/Jean.Gunnhildr.full.3145691.jpg');
+    background-size: cover; /* Картинка адаптируется под размер окна */
+    background-repeat: no-repeat; /* Отключает повторение картинки */
+    background-position: center; /* Центрует картинку */
     overflow: hidden;
     position: relative;
     width: 100%;
