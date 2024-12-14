@@ -538,18 +538,20 @@ header,
 }
 
 .con2 .con_back {
-    background-image: url(../img/kit/2.png);
+    background-image: url(https://avatars.mds.yandex.net/i?id=483c13d0be6059a5636513b53d2c6bab28c29823-3713143-images-thumbs&n=13);
 }
 
 .con3 .con_back {
-    background-image: url(../img/kit/7.jpg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=fe0136c63c1e18bb2e987ae3e6fadcaf760e850e-7046448-images-thumbs&n=13);
 }
 
 .con4 .con_back {
-    background-image: url(../img/kit/3.jpg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=183070334c14d72b1d7e6875d8e1eadeceb6be5e-12647631-images-thumbs&n=13);
 }
 
 .cases img {
+
+
     width: 100%;
     height: auto;
 }
@@ -723,6 +725,10 @@ header,
 /*-------------------FOOTER-----------------------*/
 
 footer {
+        background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     position: relative;
     background-color: #394047;
     color: #ffffff;
@@ -736,7 +742,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: white
 }
 
 .support_text {
@@ -782,8 +788,12 @@ footer .paw2 {
 
 /* form */
 .footer_form .btn {
+        background-image: url('https://avatars.mds.yandex.net/i?id=8fe778b1b959bbe4cce957b6f908536c97f1a6f2-7669654-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     background-color: coral;
-    color: black;
+    color: yellow;
 }
 
 .footer_form .btn:hover {
@@ -792,16 +802,16 @@ footer .paw2 {
 }
 
 .footer_form a {
-    color: coral;
+    color: yellow;
 }
 
 .form_elem {
     padding: 13px 15px;
-    color: white;
+    color: yellow;
     position: relative;
     width: 100%;
     border-style: solid;
-    border-color: #151618;
+    border-color: yellow;
     border-radius: 5px;
     border-width: 2px;
     background-color: transparent;
@@ -815,7 +825,7 @@ footer .paw2 {
     opacity: 0;
     max-width: 500px;
     width: 90%;
-    background-color: #394047;
+    background-color: yellow;
     border: solid 3px #151618;
     border-radius: 20px;
     position: fixed;
@@ -835,7 +845,7 @@ footer .paw2 {
 }
 
 .popupClose:hover {
-    color: coral;
+    color: yellow;
     background-color: transparent;
     border-style: solid;
     border-color: coral;
