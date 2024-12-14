@@ -512,13 +512,16 @@ header,
 /* Cases */
 .con img,
 .con {
+ 
     border-radius: 10px;
 }
 
 .con_back {
+
     height: 100%;
     border-radius: 10px;
     background-size: cover;
+
 }
 
 .con_text {
@@ -532,6 +535,7 @@ header,
 }
 
 .con_text_wrapper {
+
     position: relative;
     width: 100%;
     height: 100%;
@@ -577,6 +581,10 @@ header,
 /* partner */
 
 .partners_block {
+     background-image: url('https://avatars.mds.yandex.net/i?id=4b4337aadbb33ef6f6bfc4b581891212444229e4-10349698-images-thumbs&n=13');
+    background-size: cover; /* Картинка адаптируется под размер окна */
+    background-repeat: no-repeat; /* Отключает повторение картинки */
+    background-position: center; /* Центрует картинку */
     overflow: hidden;
     text-align: center;
     margin-bottom: 42px;
@@ -689,33 +697,45 @@ header,
 /* FAQ */
 
 .FAQ_header {
+
     text-align: center;
 }
 
 .FAQ_block p {
+         background-image: url('https://avatars.mds.yandex.net/i?id=18b1aa06d2ed5597ab8fcb5f7cad81497bd5f4d7-7015461-images-thumbs&n=13');
+    background-size: cover; /* Картинка адаптируется под размер окна */
+    background-repeat: no-repeat; /* Отключает повторение картинки */
+    background-position: center; /* Центрует картинку */
     margin: 0px;
     display: inline-block;
 }
 
 .FAQ_block h3 {
+
     margin: 0px;
 }
 
 
 .FAQ_elem {
+     background-image: url('https://avatars.mds.yandex.net/i?id=b3f649e22dcc6e1bba3137828564d5818865280f-10809483-images-thumbs&n=13');
+    background-size: cover; /* Картинка адаптируется под размер окна */
+    background-repeat: no-repeat; /* Отключает повторение картинки */
+    background-position: center; /* Центрует картинку */
     width: 100%;
     margin: 10px 0;
 }
 
 .FAQ_elem.active {
+
     width: 100%;
-    border-color: coral;
+    border-color: yellow;
     border-width: 2px;
     border-style: solid;
     border-radius: 3px;
 }
 
 .FAQ_body {
+    background-color: black;
     width: 100%;
 }
 
