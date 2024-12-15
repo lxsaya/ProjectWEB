@@ -479,15 +479,26 @@ header,
 
 /* team */
 .team_header {
+     background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     font-weight: bold;
     text-align: center;
+    color: yellow;
 }
 
 .team_block h5 {
+     background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     font-weight: 1000;
+    color: yellow;
 }
 
 .team_block .btn {
+
     display: inline-block;
     color: rgb(0, 0, 0);
     padding: 5px 10px;
@@ -497,14 +508,16 @@ header,
 }
 
 .team_photo {
-    height: auto;
+
+/*    height: auto;
     width: auto;
     max-width: 280px;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
 }
 
 .team_panel {
+
     padding: 0 45px;
     margin-bottom: 20px;
 }
