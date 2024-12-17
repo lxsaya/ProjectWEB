@@ -115,7 +115,7 @@ header,
 }
 
 .header_logo {
-    height: 700px;
+    height: 300px;
     position: absolute;
     top: -200px;
     left: -200px;
@@ -126,7 +126,7 @@ header,
 /* background video */
 
 .header_block {
-     background-image: url('https://static.zerochan.net/Jean.Gunnhildr.full.3145691.jpg');
+    background-image: url('video.mp4');
     background-size: cover; /* Картинка адаптируется под размер окна */
     background-repeat: no-repeat; /* Отключает повторение картинки */
     background-position: center; /* Центрует картинку */
@@ -479,15 +479,26 @@ header,
 
 /* team */
 .team_header {
+     background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     font-weight: bold;
     text-align: center;
+    color: yellow;
 }
 
 .team_block h5 {
+     background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     font-weight: 1000;
+    color: yellow;
 }
 
 .team_block .btn {
+
     display: inline-block;
     color: rgb(0, 0, 0);
     padding: 5px 10px;
@@ -497,14 +508,16 @@ header,
 }
 
 .team_photo {
-    height: auto;
+
+/*    height: auto;
     width: auto;
     max-width: 280px;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
 }
 
 .team_panel {
+
     padding: 0 45px;
     margin-bottom: 20px;
 }
@@ -512,13 +525,16 @@ header,
 /* Cases */
 .con img,
 .con {
+ 
     border-radius: 10px;
 }
 
 .con_back {
+
     height: 100%;
     border-radius: 10px;
     background-size: cover;
+
 }
 
 .con_text {
@@ -532,24 +548,27 @@ header,
 }
 
 .con_text_wrapper {
+
     position: relative;
     width: 100%;
     height: 100%;
 }
 
 .con2 .con_back {
-    background-image: url(../img/kit/2.png);
+    background-image: url(https://avatars.mds.yandex.net/i?id=483c13d0be6059a5636513b53d2c6bab28c29823-3713143-images-thumbs&n=13);
 }
 
 .con3 .con_back {
-    background-image: url(../img/kit/7.jpg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=fe0136c63c1e18bb2e987ae3e6fadcaf760e850e-7046448-images-thumbs&n=13);
 }
 
 .con4 .con_back {
-    background-image: url(../img/kit/3.jpg);
+    background-image: url(https://avatars.mds.yandex.net/i?id=183070334c14d72b1d7e6875d8e1eadeceb6be5e-12647631-images-thumbs&n=13);
 }
 
 .cases img {
+
+
     width: 100%;
     height: auto;
 }
@@ -575,6 +594,10 @@ header,
 /* partner */
 
 .partners_block {
+     background-image: url('https://avatars.mds.yandex.net/i?id=4b4337aadbb33ef6f6bfc4b581891212444229e4-10349698-images-thumbs&n=13');
+    background-size: cover; /* Картинка адаптируется под размер окна */
+    background-repeat: no-repeat; /* Отключает повторение картинки */
+    background-position: center; /* Центрует картинку */
     overflow: hidden;
     text-align: center;
     margin-bottom: 42px;
@@ -687,33 +710,45 @@ header,
 /* FAQ */
 
 .FAQ_header {
+
     text-align: center;
 }
 
 .FAQ_block p {
+         background-image: url('https://avatars.mds.yandex.net/i?id=18b1aa06d2ed5597ab8fcb5f7cad81497bd5f4d7-7015461-images-thumbs&n=13');
+    background-size: cover; /* Картинка адаптируется под размер окна */
+    background-repeat: no-repeat; /* Отключает повторение картинки */
+    background-position: center; /* Центрует картинку */
     margin: 0px;
     display: inline-block;
 }
 
 .FAQ_block h3 {
+
     margin: 0px;
 }
 
 
 .FAQ_elem {
+     background-image: url('https://avatars.mds.yandex.net/i?id=b3f649e22dcc6e1bba3137828564d5818865280f-10809483-images-thumbs&n=13');
+    background-size: cover; /* Картинка адаптируется под размер окна */
+    background-repeat: no-repeat; /* Отключает повторение картинки */
+    background-position: center; /* Центрует картинку */
     width: 100%;
     margin: 10px 0;
 }
 
 .FAQ_elem.active {
+
     width: 100%;
-    border-color: coral;
+    border-color: yellow;
     border-width: 2px;
     border-style: solid;
     border-radius: 3px;
 }
 
 .FAQ_body {
+    background-color: black;
     width: 100%;
 }
 
@@ -723,6 +758,10 @@ header,
 /*-------------------FOOTER-----------------------*/
 
 footer {
+        background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     position: relative;
     background-color: #394047;
     color: #ffffff;
@@ -736,7 +775,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: white
 }
 
 .support_text {
@@ -782,8 +821,12 @@ footer .paw2 {
 
 /* form */
 .footer_form .btn {
+        background-image: url('https://avatars.mds.yandex.net/i?id=8fe778b1b959bbe4cce957b6f908536c97f1a6f2-7669654-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     background-color: coral;
-    color: black;
+    color: yellow;
 }
 
 .footer_form .btn:hover {
@@ -792,16 +835,16 @@ footer .paw2 {
 }
 
 .footer_form a {
-    color: coral;
+    color: yellow;
 }
 
 .form_elem {
     padding: 13px 15px;
-    color: white;
+    color: yellow;
     position: relative;
     width: 100%;
     border-style: solid;
-    border-color: #151618;
+    border-color: yellow;
     border-radius: 5px;
     border-width: 2px;
     background-color: transparent;
@@ -815,7 +858,7 @@ footer .paw2 {
     opacity: 0;
     max-width: 500px;
     width: 90%;
-    background-color: #394047;
+    background-color: yellow;
     border: solid 3px #151618;
     border-radius: 20px;
     position: fixed;
@@ -835,7 +878,7 @@ footer .paw2 {
 }
 
 .popupClose:hover {
-    color: coral;
+    color: yellow;
     background-color: transparent;
     border-style: solid;
     border-color: coral;
