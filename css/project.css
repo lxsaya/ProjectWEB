@@ -231,10 +231,6 @@ header,
 /* Support, help, expertize */
 
 .Achievement {
-    background-image: url('https://avatars.mds.yandex.net/i?id=4ac8762106663c823b296d4253d240685bf7ffbfe183d865-4570726-images-thumbs&n=13'); /* Укажите путь к изображению */
-
-    background-repeat: no-repeat; /* Изображение не будет повторяться */
-
     position: relative;
     z-index: 10;
 }
@@ -256,6 +252,7 @@ header,
 }
 
 .help {
+    color: rgb(0, 0, 0);
     width: 90%;
     position: relative;
 }
