@@ -107,15 +107,15 @@ header,
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 5px;
-    border-color: coral;
+    border-color: yellow;
 }
 
 .btn:hover {
-    background-color: coral;
+    background-color: yellow;
 }
 
 .header_logo {
-    height: 700px;
+    height: 300px;
     position: absolute;
     top: -200px;
     left: -200px;
@@ -126,7 +126,7 @@ header,
 /* background video */
 
 .header_block {
-     background-image: url('https://static.zerochan.net/Jean.Gunnhildr.full.3145691.jpg');
+    background-image: url('video.mp4');
     background-size: cover; /* Картинка адаптируется под размер окна */
     background-repeat: no-repeat; /* Отключает повторение картинки */
     background-position: center; /* Центрует картинку */
@@ -169,7 +169,7 @@ header,
 
 
 .dropdown-content a {
-    background-color: coral;
+    background-color: yellow;
     padding: 0 5px;
     display: block;
     color: black;
@@ -214,7 +214,7 @@ header,
 
 .achivment_wrapper {
     border-left-style: solid;
-    border-left-color: coral;
+    border-left-color: yellow;
     border-left-width: 2px;
     margin: 3px;
 }
@@ -231,11 +231,16 @@ header,
 /* Support, help, expertize */
 
 .Achievement {
+     background-image: url('https://avatars.mds.yandex.net/i?id=4ac8762106663c823b296d4253d240685bf7ffbfe183d865-4570726-images-thumbs&n=13'); /* Укажите путь к изображению */
+
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+
     position: relative;
     z-index: 10;
 }
 
 .support {
+
     width: 90%;
     max-height: 1000px;
     padding-top: 100px;
@@ -251,6 +256,7 @@ header,
 }
 
 .help {
+    color: yellow;
     width: 90%;
     position: relative;
 }
@@ -308,6 +314,10 @@ header,
 }
 
 .expertise {
+     background-image: url('https://avatars.mds.yandex.net/i?id=d30499a858a12136cf425c627afaeb3debfb3659-10932765-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     position: relative;
     background-color: #394047;
     height: 80vh;
@@ -329,6 +339,7 @@ header,
 }
 
 .element-help {
+
     background: #fff;
     border-radius: 5px;
     box-shadow: 20px 20px 40px rgb(5 12 51 / 5%);
@@ -422,7 +433,7 @@ header,
     border-width: 1px;
     border-radius: 5px;
     transition: transform .2s;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 .tariff_panel ul {
@@ -436,12 +447,12 @@ header,
 .tariff_panel:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
-    background-color: #ffffff;
+    background-color: white;
 
 }
 
 .tariff_panel:hover .btn {
-    background-color: coral;
+    background-color: yellow;
 }
 
 .tariff_panel h3 {
@@ -456,22 +467,35 @@ header,
 }
 
 .tariff_content {
+     background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
     padding: 30px 20px;
+    color: yellow;
 }
 
 .tariff_dop {
+
     font-size: small;
 }
 
 .tariff_content_header {
+     background-image: url('https://avatars.mds.yandex.net/i?id=a78d015146ddae2b7d66dba2bd2f4269d5abe4bf-12347000-images-thumbs&n=13'); /* Укажите путь к изображению */
+    background-size: cover; /* Картинка будет масштабироваться, чтобы покрыть всю страницу */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-position: center; /* Изображение будет центрировано */
+    color: white;
     margin: 30px 0;
 }
 
 .tariff_wrapper {
+
     margin: 10px 0;
 }
 
 .tariff_block {
+
     background: url(../img/D-background-opacity.svg) no-repeat right top, #fff;
     background-size: cover;
 }
